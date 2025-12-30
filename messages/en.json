@@ -1,0 +1,185 @@
+{
+  "locale": "en",
+  "siteName": "Mahfaza",
+  "nav": {
+    "close": "Close",
+    "about": "About Us",
+    "research": "Research & Studies",
+    "publications": "Publications",
+    "mediaCenter": "Media Center",
+    "blog": "Blog",
+    "products": "Products",
+    "contact": "Contact Us",
+    "english": "العربية"
+  },
+  "error": {
+    "pageNotFound": "Page Not Found",
+    "pageNotFoundDesc": "Sorry, the page you are looking for does not exist",
+    "backHome": "Back to Home",
+    "error": "Error Occurred",
+    "errorDesc": "Sorry, something went wrong. Please try again",
+    "tryAgain": "Try Again"
+  },
+  "home": {
+    "hero": {
+      "title": "Trusted for Over 47 Years in Financial Markets",
+      "subtitle": "With MAHFAZA you gain access to both local and global markets through intelligent insights and advanced tools. Stay ahead, seize opportunities, and grow your wealth with confidence.",
+      "startNow": "Start Now",
+      "exploreMore": "Explore More"
+    },
+    "servicesTabs": {
+      "experts": "Our Experts",
+      "readings": "Readings",
+      "latestPublications": "Latest Publications",
+      "consulting": "Consulting Services"
+    },
+    "sections": {
+      "about": "About Us",
+      "recentPublications": "Recent Publications",
+      "latestBooks": "Latest Books",
+      "news": "News & Announcements",
+      "events": "Key Events",
+      "partners": "Our Trusted Partners"
+    },
+    "aboutFact": {
+      "title": "Who We Are",
+      "subtitle": "FACT Center for Strategic Studies – Vision for Thinking, Solutions for the Future",
+      "description": "Established in early 2025 in London under the leadership of former Jordanian Minister Wajih Azaizeh, FACT brings together an elite group of researchers and experts. It focuses on strategic issues related to asylum and displacement, particularly the Palestinian refugee issue and UNRWA. The center conducts in-depth research on international conflicts and crises, with special attention to the Arab-Israeli conflict, the legal and human rights dimensions of the refugee crisis, and strategies for conflict resolution and peacebuilding."
+    },
+    "recentPublications": {
+      "title": "Recent Publications",
+      "description": "Discover our latest releases combining in-depth analysis and strategic insights on regional and international issues",
+      "latestBadge": "Latest",
+      "readMore": "Read More"
+    },
+    "publications": [
+      {
+        "title": "Palestinian Refugees 2025",
+        "desc": "A report reviewing the major humanitarian challenges facing Palestinian refugees and proposing practical solutions for stability and human dignity."
+      },
+      {
+        "title": "Palestinian Refugees 2025",
+        "desc": "A report reviewing the major humanitarian challenges facing Palestinian refugees and proposing practical solutions for stability and human dignity."
+      },
+      {
+        "title": "Palestinian Refugees 2025",
+        "desc": "A report reviewing the major humanitarian challenges facing Palestinian refugees and proposing practical solutions for stability and human dignity."
+      }
+    ],
+    "latestBooks": {
+      "title": "Our Latest Books",
+      "description": "Stay updated with our latest releases offering deep insights into the most critical issues in our field.",
+      "viewAll": "View All"
+    },
+    "books": [
+      {
+        "title": "Palestinian Education Between Occupation and Resistance",
+        "author": "Mohammed Ahmed Siyam"
+      },
+      {
+        "title": "Palestinian Education Between Occupation and Resistance",
+        "author": "Mohammed Ahmed Siyam"
+      },
+      {
+        "title": "Palestinian Education Between Occupation and Resistance",
+        "author": "Mohammed Ahmed Siyam"
+      }
+    ],
+    "newsSection": {
+      "title": "Latest News & Announcements",
+      "description": "Stay informed with our latest updates offering deep insights into the most critical issues in our fields.",
+      "readMore": "Read More"
+    },
+    "news": [
+      {
+        "title": "Scientists around the world are intensifying their field efforts to collect and analyze data, with the aim of understanding environmental and climatic changes and their future impacts."
+      },
+      {
+        "title": "Scientists around the world are intensifying their field efforts to collect and analyze data, with the aim of understanding environmental and climatic changes and their future impacts."
+      },
+      {
+        "title": "Scientists around the world are intensifying their field efforts to collect and analyze data, with the aim of understanding environmental and climatic changes and their future impacts."
+      },
+      {
+        "title": "Scientists around the world are intensifying their field efforts to collect and analyze data, with the aim of understanding environmental and climatic changes and their future impacts."
+      },
+      {
+        "title": "Scientists around the world are intensifying their field efforts to collect and analyze data, with the aim of understanding environmental and climatic changes and their future impacts."
+      },
+      {
+        "title": "Scientists around the world are intensifying their field efforts to collect and analyze data, with the aim of understanding environmental and climatic changes and their future impacts."
+      }
+    ],
+    "eventsSlider": {
+      "title": "Upcoming Events",
+      "viewAll": "View All",
+      "prevButton": "Previous",
+      "nextButton": "Next"
+    },
+    "events": [
+      {
+        "date": "April 3, 2026",
+        "title": "International Conference on Refugees and Conflicts"
+      },
+      {
+        "date": "May 15, 2026",
+        "title": "Seminar: The Future of UNRWA and Palestinian Refugees"
+      },
+      {
+        "date": "June 22, 2026",
+        "title": "Workshop: Peacebuilding Strategies in the Middle East"
+      },
+      {
+        "date": "July 10, 2026",
+        "title": "Panel Discussion: Legal Rights of Refugees in International Law"
+      },
+      {
+        "date": "August 5, 2026",
+        "title": "Launch: Annual Report on Palestinian Refugees 2026"
+      },
+      {
+        "date": "September 18, 2026",
+        "title": "Global Conference: Displacement and Asylum in a Changing World"
+      }
+    ],
+    "AreYouReady": {
+      "title": "Our Trusted Partners",
+      "description": "Collaborating with strategic partners to deliver results that meet the highest standards."
+    },
+    "partnersAlt": {
+      "1": "UNRWA",
+      "2": "Human Rights Council - HRC",
+      "3": "WikiPalestine"
+    }
+  },
+  "footer": {
+    "services": {
+      "localMarket": "Local Market Trading (ASE)",
+      "forexMarkets": "Forex & International Markets"
+    },
+    "navigation": {
+      "home": "Home",
+      "blog": "Blog",
+      "sale": "Sale",
+      "aboutUs": "About us",
+      "forCustomers": "For customers",
+      "contacts": "Contacts"
+    },
+    "contact": {
+      "title": "Contact us",
+      "phone": "+962 000-00-00",
+      "emailLabel": "Email",
+      "email": "info@mahfaza.com"
+    },
+    "address": {
+      "title": "Address",
+      "text": "33 Issam Ajlouni Street – Mahfaza Building, Shemisani, Amman"
+    },
+    "hours": {
+      "title": "Opening hours",
+      "time": "9am—6pm"
+    },
+    "copyright": "© 2025 — Copyright",
+    "scrollToTop": "Scroll to top"
+  }
+}

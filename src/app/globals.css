@@ -1,0 +1,127 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+:root {
+  --primary: rgba(84, 185, 72, 1);
+  --secondary: rgba(0, 84, 164, 1);
+  --primaryGray: rgba(107, 109, 108, 1);
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-primaryGray: var(--primaryGray);
+  --font-sans: var(--font-alexandria), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Apply Gulf font to all headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-gulf), var(--font-alexandria), ui-sans-serif, system-ui, sans-serif;
+}
+
+.font-gulf {
+  font-family: var(--font-gulf) !important;
+}
+.font-alexandria {
+  font-family: var(--font-alexandria) !important;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.logo-loading {
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+body {
+  /* color: var(--foreground); */
+  /* background: var(--background); */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: var(--font-sans);
+  overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  /* Thumb color */
+  border-radius: 4px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.dir-ltr {
+  direction: ltr;
+}
+
+.dir-rtl {
+  direction: rtl;
+}
+
+input[type="search"]::placeholder {
+  padding-left: 10px;
+}
+
+@layer components {
+  .title {
+    @apply text-3xl md:text-[40px] font-bold text-primary mb-6;
+  }
+
+  .paragraph {
+    @apply text-xl md:text-[1.7rem] text-[#616161];
+  }
+}
+
+
+
+
+.clip-tag-left {
+  clip-path: polygon(15% 0%,
+      /* قصّة الميلان من فوق على الشمال */
+      100% 0%,
+      100% 100%,
+      0% 100%,
+      0% 15%);
+}
+
+.clip-tag-both {
+  clip-path: polygon(11% -40%,
+      /* قصّة من الشمال */
+      89% -40%,
+      /* قصّة من اليمين */
+      100% 12%,
+      100% 100%,
+      0% 100%,
+      0% 12%);
+}
