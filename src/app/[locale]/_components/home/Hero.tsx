@@ -1,9 +1,12 @@
 import { Container } from "@/components/shared/Container";
+import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
-export default async function Hero() {
-  const t = await getTranslations("home");
+export default function Hero() {
+  // const t = await getTranslations("home");
+  const t = useTranslations("home");
+
   return (
     <section
       className="relative overflow-hidden text-secondary bg-linear-to-b from-white to-black"

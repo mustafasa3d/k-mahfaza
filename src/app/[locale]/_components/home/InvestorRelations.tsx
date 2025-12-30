@@ -18,7 +18,7 @@ function InvestorRelations() {
           <h2 className="text-[40px] md:text-[48px] lg:text-[54px] font-bold leading-[1.3] text-black text-center max-w-[933px]">
             Investor Relations Transparency You Can <span className="text-[#54B948]">Trust</span>
           </h2>
-          <p className="text-center text-lg md:text-xl lg:text-2xl font-light text-primaryGray leading-tight">
+          <p className="text-center text-lg md:text-xl lg:text-[35px] text-primaryGray leading-tight">
             <span className="text-[#54B948]">We are committed to delivering clear, transparent,</span> and timely
             information to our investors. Our Investor Relations section
             provides access to financial reports, market updates, and corporate

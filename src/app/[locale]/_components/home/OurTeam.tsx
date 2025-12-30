@@ -20,7 +20,7 @@ export default function OurTeam() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-20">
           {/* cart 1 */}
           {/* Team Member Card */}
           {Array.from({ length: 3 }).map((item,idx) => (
@@ -28,7 +28,7 @@ export default function OurTeam() {
               {/* Image Background - Grayscale */}
               <div className="absolute inset-0 bg-gray-300">
                 <Image
-                  src="/assets/images/about/founder1.png"
+                  src={`/assets/images/ourteam/p${idx + 1}.png`}
                   alt="Team Member"
                   fill
                   className="object-cover grayscale"

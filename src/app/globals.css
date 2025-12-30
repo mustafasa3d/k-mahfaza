@@ -12,7 +12,8 @@
   --color-secondary: var(--secondary);
   --color-primaryGray: var(--primaryGray);
   --font-sans: var(--font-alexandria), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo,
+    Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /* Apply Gulf font to all headings */
@@ -22,7 +23,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-gulf), var(--font-alexandria), ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-gulf), var(--font-alexandria), ui-sans-serif,
+    system-ui, sans-serif;
 }
 
 .font-gulf {
@@ -40,7 +42,6 @@ h6 {
 } */
 
 @keyframes pulse {
-
   0%,
   100% {
     opacity: 0.4;
@@ -103,25 +104,33 @@ input[type="search"]::placeholder {
   }
 }
 
-
-
-
 .clip-tag-left {
-  clip-path: polygon(15% 0%,
-      /* قصّة الميلان من فوق على الشمال */
-      100% 0%,
-      100% 100%,
-      0% 100%,
-      0% 15%);
+  clip-path: polygon(
+    15% 0%,
+    /* قصّة الميلان من فوق على الشمال */ 100% 0%,
+    100% 100%,
+    0% 100%,
+    0% 15%
+  );
 }
 
 .clip-tag-both {
-  clip-path: polygon(11% -40%,
-      /* قصّة من الشمال */
-      89% -40%,
-      /* قصّة من اليمين */
-      100% 12%,
-      100% 100%,
-      0% 100%,
-      0% 12%);
+  clip-path: polygon(
+    11% -40%,
+    /* قصّة من الشمال */ 89% -40%,
+    /* قصّة من اليمين */ 100% 12%,
+    100% 100%,
+    0% 100%,
+    0% 12%
+  );
+}
+
+.clip-c {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.clip-r {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+}
+.clip-l {
+  clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
 }

@@ -2,8 +2,8 @@ import { Container } from "@/components/shared/Container";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
-export default async function About(params: any) {
-  const t = await getTranslations("home");
+export default function About(params: any) {
+  // const t = await getTranslations("home");
 
   const normalDirection = params?.locale === "ar" ? "rtl" : "ltr";
 
